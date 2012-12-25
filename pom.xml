@@ -48,7 +48,7 @@
 
 	<modules>
 		<module>library</module>
-		<module>sample</module>
+		<!--<module>sample</module>-->
 	</modules>
 
 	<properties>
@@ -60,9 +60,9 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.google.android</groupId>
-			<artifactId>support-v4</artifactId>
-			<version>r11</version>
+            <groupId>android.support</groupId>
+            <artifactId>compatibility-v4</artifactId>
+			<version>11</version>
 		</dependency>
 	</dependencies>
 
